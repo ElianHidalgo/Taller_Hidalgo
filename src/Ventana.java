@@ -48,7 +48,7 @@ public class Ventana {
 
                     String cedulaString = String.valueOf(cedulaActual);
                     if (cedulaString.length() != 10) {
-                        JOptionPane.showMessageDialog(null, "La cedula no contiene los 8 digitos");
+                        JOptionPane.showMessageDialog(null, "La cedula no contiene los 10 digitos");
                         return;
                     }
 
