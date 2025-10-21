@@ -1,11 +1,11 @@
 public class Cliente {
 
-    private int Cedula;
+    private long Cedula;
     private String nombre;
     private int cantidadentradas;
 
 
-    public Cliente(int cedula, String nombre, int cantidadentradas) {
+    public Cliente(long cedula, String nombre, int cantidadentradas) {
         Cedula = cedula;
         this.nombre = nombre;
         this.cantidadentradas = cantidadentradas;
@@ -24,7 +24,7 @@ public class Cliente {
         Cedula = cedula;
     }
 
-    public int getCedula() {
+    public long getCedula() {
         return Cedula;
     }
 

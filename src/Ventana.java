@@ -17,7 +17,7 @@ public class Ventana {
     int entradasCompradasPirata = 0;
     int entradasCompradasNaruto = 0;
     int entradasCompradasAntman = 0;
-    Queue<Integer> cedulas = new LinkedList<>();
+    Queue<Long> cedulas = new LinkedList<>();
 
 
 
@@ -36,7 +36,7 @@ public class Ventana {
 
                 try {
                     String nombre = txtFNombre.getText();
-                    int cedulaActual = Integer.parseInt(txtFieldCedula.getText());
+                    long cedulaActual = Long.parseLong(txtFieldCedula.getText());
                     String peliculaElegida = cboPeliculas.getSelectedItem().toString();
                     int cantidad = (int) cboCantEntradas.getSelectedItem();
 
